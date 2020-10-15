@@ -1,0 +1,72 @@
+{
+  "name": "TestAutomationProject",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.Testing.Activities": "[1.2.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.0.0",
+  "projectVersion": "1.0.56446044",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1c25731c-cbd5-4a62-8002-2725c9cddad3",
+        "dataVariationFilePath": ".variations\\output_Sheet1.json",
+        "fileName": "TestCases\\TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "746c2e5e-1a0b-477a-9954-c182370a7706",
+        "dataVariationFilePath": ".variations\\output_Sheet1_1.json",
+        "fileName": "TestCases\\TestCase1.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "TestCases\\TestCase.xaml",
+      "uniqueId": "1c25731c-cbd5-4a62-8002-2725c9cddad3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TestCases\\TestCase1.xaml",
+      "uniqueId": "746c2e5e-1a0b-477a-9954-c182370a7706",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
